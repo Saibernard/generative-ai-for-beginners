@@ -181,7 +181,6 @@ Now that we learned how to set up and configure openai, it's time to build your 
    import openai
 
    openai.api_key = "<replace this value with your open ai key or Azure OpenAI key>"
-
    openai.api_type = 'azure'
    openai.api_version = '2023-05-15'
    openai.api_base = "<endpoint found in Azure Portal where your API key is>"
